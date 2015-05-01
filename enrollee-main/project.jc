@@ -1,0 +1,13 @@
+//
+load '..'
+//
+project.name = "enrollee-main"
+project.package_root = "enrollee.main"
+//
+include "wax-module-project"
+include "localize-project"
+//
+libs = libs + ["jandcode-wax-core", "jandcode-wax-verdb", "jandcode-wax-auth",
+"jdbc-mysql"]
+libs_dev = libs_dev + []
+//

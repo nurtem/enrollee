@@ -1,0 +1,45 @@
+/* Jc.control.PageHeader */
+
+.jc-pageheader {
+    vertical-align: top;
+    white-space: nowrap;
+    width: 98%; /* иначе вылазит справа, когда с иконкой */
+}
+
+.jc-pageheader-icon-wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.jc-pageheader-text {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.jc-pageheader-32 .jc-pageheader-icon-wrap {
+    padding-right: 12px;
+}
+
+.jc-pageheader-16 .jc-pageheader-icon-wrap {
+    padding-right: 6px;
+}
+
+/* font */
+
+.jc-pageheader-text {
+    color: #596F8F;
+}
+
+.jc-pageheader-32 .jc-pageheader-text {
+    font-size: 16px;
+}
+
+.jc-pageheader-16 .jc-pageheader-text {
+    font-size: 14px;
+}
+
+.jc-pageheader-text-high {
+    color: #a52a2a;
+    font-weight: bold;
+}

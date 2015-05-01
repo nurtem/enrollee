@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <x-module name="enrollee.main">
+        <depend name="jandcode.lang"/>
+        <depend name="jandcode.wax.auth"/>
+        <depend name="jandcode.wax.core"/>
+        <depend name="jandcode.wax.verdb"/>
+        <depend name="jandcode.dbm.db.mysql"/>
+    </x-module>
+
+    <model name="enrollee.main" parent="sys" x-root="true">
+        <x-include plugin="jandcode.wax.core.model"/>
+        <x-include plugin="jandcode.wax.verdb.model"/>
+        <x-include plugin="jandcode.wax.auth.model"/>
+        <x-include path="model/model.rt"/>
+    </model>
+
+    <dbm>
+        <registermodel name="default" model="enrollee.main"/>
+    </dbm>
+
+    <web>
+        <resource name="enrollee.main" package="enrollee.main"/>
+
+
+        <!-- css path="/js/ext4/resources/css/ext-all-neptune.css" -->
+
+        <theme default="ide2">
+            <ide2>
+                <item name="ext-all.css" path="/js/ext4/resources/css/ext-all-neptune.css">
+                    <item name="main.css" path="/page/css/main.css"/>
+                    <item name="ide2-layout.css" path="/page/css/ide2-layout.css"/>
+                </item>
+            </ide2>
+        </theme>
+
+    </web>
+
+    <lang default="kz">
+        <lang name="en" title="English"/>
+        <lang name="kz" title="Қазақша"/>
+
+        <translate name="i" file="#{path}/lang/lang-data-kz.xml" lang="kz"/>
+    </lang>
+
+    <app title="Қабылдау комиссиясы"/>
+
+
+</root>

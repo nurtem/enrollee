@@ -1,0 +1,67 @@
+/* print */
+
+.pr-body {
+    font-size: 12px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.pr-body-vert {
+    width: 19cm;
+}
+
+.pr-body h1 {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+.pr-body h2 {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0.5cm;
+}
+
+.pr-grid {
+    border-collapse: collapse;
+}
+
+.pr-grid td, .pr-grid th {
+    font-size: 11px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.pr-grid th {
+    font-weight: bold;
+}
+
+.pr-grid td {
+    border-top: black solid 1px;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+}
+
+.pr-grid th {
+    border-top: black solid 1px;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    text-align: center;
+}
+
+.pr-grid {
+    border-bottom: black solid 1px;
+}
+
+.pr-gridcell-subtext {
+    padding-left: 20px;
+    font-size: 10px;
+    color: gray;
+}

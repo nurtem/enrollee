@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <domain name="Enrollee" parent="wax.Table" tag.db="true" title="Абитуриент" lang="kz">
+
+        <!---->
+        <field name="addressA" parent="memo" title="Мекен- жайы(тіркеу)"/>
+        <field name="addressB" parent="memo" title="Мекен- жайы(тұрақты)"/>
+        <field name="phone" parent="string" size="15" title="Телефон"/>
+        <field name="email" parent="string" size="30" title="E- mail"/>
+
+        <field name="recDate" parent="datetime" title="Тіркелген күні"/>
+        <field name="identifyNum" parent="long" title="Жеке нөмірі(шифр)"/>
+        <field name="isQuery" parent="boolean" title="Сұраныс"/>
+        <field name="user" parent="WaxAuth_user/ref" title="Соңғы рет өзгерткен"/>
+
+
+        <field name="education" parent="Education/ref" req="true"/>
+        <field name="speciality" parent="Speciality/ref" req="true"/>
+        <field name="department" parent="Department/ref" req="true"/>
+        <field name="gender" parent="Gender/ref" req="true"/>
+        <field name="citizen" parent="Citizen/ref" req="true"/>
+
+        <dao name="list" class="enrollee.main.model.Enrollee_list"/>
+        <dao name="updater" class="enrollee.main.model.Enrollee_updater"/>
+
+    </domain>
+
+    <domain name="Enrollee.ui" parent="IdCard" tag.db="false">
+
+        <field name="name" parent="string" size="150" title="Аты- жөні"/>
+        <field name="education" parent="Education/ref"/>
+        <field name="speciality" parent="Speciality/ref"/>
+        <field name="recDate" parent="datetime" title="Тіркелген күні"/>
+
+        <dao name="list" class="enrollee.main.model.Enrollee_list"/>
+
+    </domain>
+
+    <domain name="Enrollee.filter" parent="wax.Table" tag.db="false">
+
+        <field name="education" parent="Education/ref"/>
+        <field name="speciality" parent="Speciality/ref"/>
+        <field name="lastName" parent="string" size="50" title="Тегі"/>
+        <field name="firstName" parent="string" size="50" title="Аты"/>
+        <field name="itn" parent="long" title="ЖСН"/>
+        <field name="orderBy" parent="string" size="50" title="order by"/>
+
+        <dao name="list" class="enrollee.main.model.Enrollee_list"/>
+
+    </domain>
+
+</root>

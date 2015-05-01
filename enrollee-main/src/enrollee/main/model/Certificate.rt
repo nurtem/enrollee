@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <domain name="Certificate" parent="wax.Table" tag.db="true" title="Сертификат">
+
+        <field name="enrollee" parent="Enrollee/ref"/>
+        <field name="docNum" parent="long" title="Нөмірі"/>
+        <field name="serialNum" parent="long" title="Серия"/>
+        <field name="tZhK" parent="long" title="ТЖК"/>
+        <field name="tillDate" parent="date" title="Жарамдылық мерзімі"/>
+
+    </domain>
+
+    <domain name="Certificate.ui" parent="Certificate" tag.db="false" title="Сертификат">
+
+        <field name="enrollee" parent="Enrollee/ref"/>
+
+        <field name="total" parent="long" title="Барлығы"/>
+
+    </domain>
+
+
+</root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <domain name="Relative" parent="wax.Table" tag.db="true" title="Туысы">
+
+        <field name="enrollee" parent="Enrollee/ref"/>
+        <field name="relativeType" parent="RelativeType/ref"/>
+        <field name="name" parent="string" size="150" title="Аты- жөні"/>
+        <field name="birthD" parent="date" title="Туылған күні"/>
+
+    </domain>
+
+</root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <domain name="Attestation" parent="wax.Table" tag.db="true" title="Сертификат">
+
+        <field name="enrollee" parent="Enrollee/ref"/>
+
+        <field name="docNum" parent="long" title="Құжат нөмірі"/>
+        <field name="s1" parent="Subject/ref" title="1"/>
+        <field name="s2" parent="Subject/ref" title="2"/>
+        <field name="s3" parent="Subject/ref" title="3"/>
+        <field name="s4" parent="Subject/ref" title="4"/>
+        <field name="s5" parent="Subject/ref" title="5"/>
+
+    </domain>
+
+
+</root>

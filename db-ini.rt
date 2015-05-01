@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <!--
+        Настройки базы данных по умолчанию
+    -->
+
+    <!--    <db name="default"
+            database="#{path}/DERBY_DATABASE"
+                />-->
+    <db
+            name="default"
+            dbdriver="mysql"
+            host="localhost"
+            database="enrollee"
+
+            username="root"
+            password="rootpwd"
+
+            system.username="root"
+            system.password="rootpwd"
+            />
+
+
+    <!-- ===================================================================== -->
+
+    <x-include path="_db-ini.rt" required="false"/>
+
+</root>

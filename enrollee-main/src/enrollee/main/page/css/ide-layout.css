@@ -1,0 +1,108 @@
+/*= common
+---------------------------------------*/
+
+body.x-border-layout-ct {
+    background: #f6f6f6;
+}
+
+.x-window-body {
+    background: white;
+}
+
+.jc-frame-body .x-border-layout-ct {
+    background: white;
+}
+
+/*= top
+---------------------------------------*/
+
+#jc-app-top {
+    background-color: #00A2DF !important;
+    background-image: url("../../images/top1.png") !important;
+    border-style: none;
+    padding: 4px 10px 4px 10px;
+}
+
+#jc-app-top .jc-pageheader {
+    cursor: pointer;
+}
+
+#jc-app-top .jc-pageheader-text {
+    color: #596F8F;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #d6d6d6;
+    line-height: 13px;
+    margin-top: 9px;
+}
+
+/*= tabbar
+---------------------------------------*/
+
+.jc-app-tabbar .x-tab-bar-strip {
+}
+
+.jc-app-tabbar .x-tab {
+    background: #f6f6f6;
+    box-shadow: none;
+    border-top-color: #f6f6f6;
+    border-left-color: #f6f6f6;
+    border-right-color: #f6f6f6;
+}
+
+.jc-app-tabbar .x-tab-close-btn {
+    background-image: url("../../images/ext/tab-gray-close.gif");
+}
+
+.jc-app-tabbar .x-tab .x-tab-inner {
+    color: gray;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.jc-app-tabbar .x-tab .x-tab-inner:hover {
+    text-decoration: underline;
+}
+
+.jc-app-tabbar .x-tab-active .x-tab-inner:hover {
+    text-decoration: inherit;
+}
+
+.jc-app-tabbar .x-tab-active {
+    background: #eAeAeA;
+    border-color: #D0D0D0;
+    border-top-color: #e8ecf0 !important;
+}
+
+.jc-app-tabbar .x-tab-active .x-tab-close-btn {
+    background-image: url("../../images/ext/tab-default-close.gif");
+}
+
+.jc-app-tabbar .x-tab-active .x-tab-inner {
+    color: #595959;
+    font-weight: bold;
+}
+
+/*= tab frame
+---------------------------------------*/
+
+.jc-frametab-toolbar {
+    background: #eAeAeA !important;
+    height: 26px;
+}
+
+.jc-frametab-toolbar .jc-frametab-title {
+    color: #595959 !important;
+    font-weight: bold !important;
+}
+
+/*= frame
+---------------------------------------*/
+
+.jc-frame-body {
+    padding: 18px 25px 18px 18px;
+    font-size: 11px;
+    background-color: rgb(0, 175, 234);
+}
+

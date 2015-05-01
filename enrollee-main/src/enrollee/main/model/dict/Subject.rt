@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <domain name="Subject" parent="wax.Table" tag.db="true"
+            title="Пән">
+        <!--@
+
+        -->
+
+        <ref parent="field/ref.dict"/>
+
+        <dict defaultField="name"/>
+
+        <!-- =================== -->
+
+        <field name="name" parent="string" size="32"
+               title="Пән аты">
+        </field>
+
+        <field name="minVal" parent="long" title="Төменгі шекара"/>
+
+        <dao name="dict" class="jandcode.wax.core.model.WaxLoadDictDao"/>
+
+
+    </domain>
+
+</root>

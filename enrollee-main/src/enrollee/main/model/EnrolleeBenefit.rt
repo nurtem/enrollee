@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <domain name="EnrolleeBenefit" parent="wax.Table" tag.db="true" title="Жеңілдіктер">
+
+        <field name="enrollee" parent="Enrollee/ref" title="Абитуриент" req="true"/>
+        <field name="benefit" parent="Benefit/ref" title="Жеңілдіктер" req="true"/>
+
+        <!-- =================== -->
+        <dao name="list" class="enrollee.main.model.EnrolleeBenefit_list"/>
+        <dao name="updater" class="enrollee.main.model.EnrolleeBenefit_updater"/>
+    </domain>
+
+</root>

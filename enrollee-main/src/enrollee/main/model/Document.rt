@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <domain name="Document" parent="wax.Table" tag.db="true" title="Құжат" lang="kz">
+
+        <field name="docNum" parent="long" title="Құжат нөмірі"/>
+        <field name="docCount" parent="long" title="Саны"/>
+        <field name="issued" parent="string" title="Берген мекеме" size="50"/>
+
+        <field name="documentType" parent="DocumentType/ref" req="true"/>
+        <field name="enrollee" parent="Enrollee/ref" title="Абитуриент" req="true"/>
+
+
+        <dao name="list" class="enrollee.main.model.Document_list"/>
+        <dao name="updater" class="enrollee.main.model.Document_updater"/>
+
+
+    </domain>
+
+
+</root>

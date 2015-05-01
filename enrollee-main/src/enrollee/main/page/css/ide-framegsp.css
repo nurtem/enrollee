@@ -1,0 +1,158 @@
+/*= databox
+---------------------------------------*/
+
+.fg-databox {
+    background: #f6f6f6;
+    padding: 6px 6px 8px 8px;
+    border: #B5B8C8 solid 1px;
+    border-radius: 6px;
+}
+
+.fg-databox .fg-delim {
+    border-bottom-color: #B5B8C8;
+}
+
+.fg-databox .fg-delim .fg-delim-title {
+    background-color: #f6f6f6;
+}
+
+.fg-databox .jc-pageheader-text {
+    color: #3f6869;
+}
+
+/*= value
+---------------------------------------*/
+
+.fg-value {
+    font-weight: bold;
+    color: #3f6869;
+    font-size: 11px;
+}
+
+.fg-value .fg-toolbutton, .fg-value .fg-toolbutton:visited {
+    color: inherit;
+    padding-top: 4px;
+}
+
+.fg-value .fg-toolbutton:hover {
+    color: white;
+}
+
+.fg-value .fg-value-red {
+    color: red;
+}
+
+/*= table layout
+---------------------------------------*/
+
+.fg-layout-table > tbody > tr > td {
+    padding: 3px;
+}
+
+/*= delim
+---------------------------------------*/
+
+.fg-delim {
+    border-bottom: #B7CBEB solid 1px;
+    padding-left: 12px;
+    height: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.fg-delim .fg-delim-title {
+    float: left;
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 8pt;
+    font-weight: bold;
+    position: absolute;
+}
+
+/*= toolbutton
+---------------------------------------*/
+
+.fg-toolbutton, .fg-toolbutton:visited {
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.fg-toolbutton img {
+    vertical-align: middle;
+}
+
+.fg-toolbutton:hover {
+    background-color: #4281b5;
+}
+
+/*= icon
+---------------------------------------*/
+
+.fg-icon-16 {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*= gsp grid
+---------------------------------------*/
+
+.fg-grid {
+    /*font-size: 11px;*/
+    border-collapse: collapse;
+}
+
+.fg-grid td, .fg-grid th {
+    font-size: 11px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.fg-grid th {
+    background-color: #F4F4F5;
+    border: #D0D0D0 solid 1px;
+}
+
+table.fg-grid td {
+    border-top: #e0e0e0 solid 1px;
+    border-right: #D0D0D0 solid 1px;
+    border-left: #D0D0D0 solid 1px;
+}
+
+.fg-grid {
+    border-bottom: #D0D0D0 solid 1px;
+}
+
+.fg-grid tr:hover {
+    background: #F4F4F5;
+}
+
+.fg-grid a {
+    color: black;
+}
+
+/*= gsp cells
+---------------------------------------*/
+
+.fg-gridcell-icontext img {
+    vertical-align: middle;
+    padding-right: 4px;
+}
+
+.fg-gridcell-subtext {
+    padding-left: 20px;
+    font-size: 10px;
+    color: gray;
+}
+
+.fg-gridcell-subtext a {
+    color: gray;
+}

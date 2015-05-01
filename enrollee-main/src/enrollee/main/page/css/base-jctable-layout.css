@@ -1,0 +1,32 @@
+/* Jc.layout.Table */
+
+.x-jctable-layout .x-form-item {
+    margin-bottom: 0;
+}
+
+.x-jctable-layout-cell {
+    vertical-align: top;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+.x-jctable-layout-cell-lastcol {
+    padding-right: 0;
+}
+
+.x-jctable-layout-cell-lastrow {
+    padding-bottom: 0;
+}
+
+.x-jctable-layout .cell-label {
+    padding-top: 4px;
+    font-size: 11px;
+}
+
+.x-jctable-layout .cell-datalabel {
+    padding-top: 4px;
+}
+
+.x-jctable-layout .cell-datalabel-icon {
+    padding-top: 2px;
+}

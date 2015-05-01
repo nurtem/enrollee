@@ -1,0 +1,41 @@
+/*= debug panels
+---------------------------------------*/
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.jc-app-debugpanel {
+    border: gray dotted 1px;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+.jc-app-content-wrap {
+    padding-left: 20px;
+}
+
+td.jc-app-tools-wrap {
+    width: 300px;
+}
+
+.jc-app-debughint {
+    color: gray;
+    font-size: 7pt;
+    font-weight: bold;
+}
+
+.jc-app-debuggrid td {
+    vertical-align: top;
+}
+
+#jc-app-content-title {
+    color: #8b0000;
+    font-weight: bold;
+}
+
+#jc-app-tools-title {
+    color: #688438;
+    font-weight: bold;
+}

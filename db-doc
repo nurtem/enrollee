@@ -1,0 +1,3 @@
+ java -jar /home/nur/development/tools/jandcode-core-bin/lib/schemaSpy_5.0.0.jar -t mysql -host localhost:3306 -db enrollee -u root -p rootpwd -dp /home/nur/development/tools/jandcode-core-bin/lib/jdbc-mysql.jar -o output
+
+java -jar schemaSpy.jar -db mydb -s myschema -u devuser -p password -o output

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <domain name="IdCard" parent="wax.Table" tag.db="true" title="Жеке куәлік">
+
+        <field name="enrollee" parent="Enrollee/ref"/>
+
+        <!--
+                        Жеке куәліктегі мәліметтер
+        -->
+
+        <field name="lastName" parent="string" size="50" title="Тегі" req="true"/>
+        <field name="firstName" parent="string" size="50" title="Аты"/>
+        <field name="middleName" parent="string" size="50" title="Әкесінің аты"/>
+        <field name="birthD" parent="date" title="Туылған күні"/>
+        <field name="identityNum" parent="long" title="Жеке куәлік нөмірі"/>
+        <field name="itn" parent="long" title="ЖСН"/>
+        <field name="issueDate" parent="date" title="Берілген күні"/>
+        <field name="tillDate" parent="date" title="Жарамдылық мерзімі"/>
+
+    </domain>
+
+
+</root>

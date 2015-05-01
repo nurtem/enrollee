@@ -1,0 +1,53 @@
+/* Jc.showError */
+
+.jc-errorwindow-body {
+    padding: 20px;
+}
+
+.jc-errorwindow-body .error-text {
+    padding-left: 50px;
+    background: url(../../images/icon32/error.png) no-repeat;
+    min-height: 40px;
+}
+
+.jc-errorwindow-body .error-header {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.jc-errorwindow-body .error-script {
+    padding: 8px;
+    font-size: 9pt;
+    text-align: left;
+    overflow: auto;
+    white-space: pre;
+    font-family: monospace;
+}
+
+.jc-errorwindow-body .error-stack {
+    padding: 8px;
+    font-size: 9pt;
+    text-align: left;
+    overflow: auto;
+    white-space: pre;
+    font-family: monospace;
+}
+
+.jc-errorwindow-body .error-text ul {
+    padding-left: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*
+
+.jc-errorwindow-body .error-text ul li {
+    list-style: disc;
+    */
+/*margin-left: 20px;*//*
+
+    margin-top: 5px;
+}
+*/

@@ -1,0 +1,13 @@
+.x-panel-body {
+    background-color: beige;
+}
+
+.btn-bottom .x-btn-inner {
+    /*border-color:#EE0000;*/
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.btn-bottom {
+    border-color: #461EDA;
+}

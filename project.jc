@@ -1,0 +1,16 @@
+//
+project.name = "enrollee"
+project.package_root = "enrollee"
+//
+include "wax-root-project"
+include "wax-verdb-project"
+include "wax-verdb-project-product"
+//
+modules = [
+        'enrollee-main',
+]
+
+//
+libs = libs + []
+libs_dev = libs_dev + []
+//

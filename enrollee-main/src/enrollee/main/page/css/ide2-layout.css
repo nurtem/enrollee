@@ -1,0 +1,18 @@
+/*= common
+---------------------------------------*/
+
+.jc-app-tabbar .x-tab-active {
+    border-top-color: #D0D0D0 !important;
+}
+
+#jc-app-center-body.x-panel-body-default {
+    border-bottom-width: 0 !important;
+}
+
+#jc-app-tools-body.x-panel-body-default {
+    border-bottom-width: 0 !important;
+}
+
+.jc-frame-body {
+    padding: 18px 25px 18px 18px;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <domain name="Benefit" parent="wax.Table" tag.db="true" title="Жеңілдіктер">
+
+
+        <ref parent="field/ref.dict"/>
+
+        <dict defaultField="name"/>
+
+        <!-- =================== -->
+
+        <field name="name" parent="string" size="32"/>
+
+        <!-- =================== -->
+
+        <dao name="dict" class="jandcode.wax.core.model.WaxLoadDictDao"/>
+        <dao name="list" class="enrollee.main.model.dict.Benefit_list"/>
+
+    </domain>
+
+</root>

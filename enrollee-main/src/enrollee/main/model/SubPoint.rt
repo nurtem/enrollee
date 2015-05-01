@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+    <domain name="SubPoint" parent="wax.Table" tag.db="true" title="Сертификат балы">
+
+        <field name="certificate" parent="Certificate/ref"/>
+        <field name="subject" parent="Subject/ref"/>
+        <field name="point" parent="long" title="Балл"/>
+
+    </domain>
+
+
+</root>
